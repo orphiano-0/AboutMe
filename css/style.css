@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: rgb(29, 20, 49);
+   
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    font-size: 2.5rem;
+    color: white;
+}
+h1{
+    font-size: var(--h2-font-size);
+    color: rgb(239, 234, 234);
+    text-align: center;
+}
+h2{
+    font-size: var(--h2-font-size);
+    color: rgb(239, 234, 234);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: disc;
+    display: inline-block;
+    padding: 10px 5px;
+    margin: auto;
+}
+nav ul li a{
+    color: rgb(239, 234, 234);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:aqua;
+    transition: .3s;
+}
+i{
+    font-size: 3rem;
+    padding: 1.13rem;
+}
+.container {
+    margin-top: 5rem;
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+}
+.content {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 40px;
+    margin: 30px auto;
+}
+.content .about-me{
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+    background-color: gray(185, 105, 105);
+    padding: 25px 25px;
+    text-align: center;
+}
+.content .about-me h3{
+    color: white;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.content .about-me p{
+    margin-top: 30px;
+    font-size: 23px;
+    line-height: 1;
+    color: white;
+}
+.content .about-me li{
+    color: white;
+    font-size: 19px;
+    margin-top: 1em;
+    line-height: .7;
+    letter-spacing: 1px;
+} 
+.content .about-me a{
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    border: 1px solid #cc0000;
+    letter-spacing: 1.5px;
+    margin-top: 35px;
+}
+.content .about-me a:hover{
+    background-color: white;
+    color: #cc0000;
+    transition: 0.2s ease;
+}
+.image-section{
+    width: 100%;
+    margin: auto;
+
+}
+.image-section img{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px rgb(19, 11, 11);
+      -moz-box-shadow: 10px 10px 5px rgb(11, 10, 10);
+      -webkit-box-shadow: 10px 10px 5px rgb(11, 10, 10);
+      -khtml-box-shadow: 10px 10px 5px rgb(11, 10, 10);
+}
